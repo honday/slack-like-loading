@@ -1,0 +1,38 @@
+.loading {
+	position: relative;
+	width: var(--size);
+	height: var(--size);
+	transform: rotate(-15deg);
+}
+.loading .bar {
+	display: block;
+	position: absolute;
+	border-radius: calc(var(--thin) / 2);
+	width: var(--thin);
+	height: var(--thin);
+
+	&.bar-1 {
+		top: var(--thin);
+		left: 0;
+		background-color: var(--color1);
+		animation: animate-bar1 2s infinite;
+	}
+	&.bar-2 {
+		top: calc(var(--thin) * 3);
+		left: 0;
+		background-color: var(--color2);
+		animation: animate-bar2 2s infinite;
+	}
+	&.bar-3 {
+		top: 0;
+		left: var(--thin);
+		background-color: var(--color3);
+		animation: animate-bar3 2s infinite;
+	}
+	&.bar-4 {
+		top: 0;
+		left: calc(var(--thin) * 3);
+		background-color: var(--color4);
+		animation: animate-bar4 2s infinite;
+	}
+}

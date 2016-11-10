@@ -1,0 +1,68 @@
+@keyframes animate-bar1 {
+	0% {
+		width: var(--thin);
+		left: calc(var(--size) - var(--thin));
+	}
+	35% {
+		width: var(--size);
+		left: 0;
+	}
+	70% {
+		width: var(--thin);
+		left: 0;
+	}
+	100% {
+		left: calc(var(--size) - var(--thin));
+	}
+}
+@keyframes animate-bar2 {
+	0% {
+		width: var(--thin);
+		left: 0;
+	}
+	35% {
+		width: var(--size);
+		left: 0;
+	}
+	70% {
+		width: var(--thin);
+		left: calc(var(--size) - var(--thin));
+	}
+	100% {
+		left: 0;
+	}
+}
+@keyframes animate-bar3 {
+	0% {
+		height: var(--thin);
+		top: 0;
+	}
+	35% {
+		height: var(--size);
+		top: 0;
+	}
+	70% {
+		height: var(--thin);
+		top: calc(var(--size) - var(--thin));
+	}
+	100% {
+		top: 0;
+	}
+}
+@keyframes animate-bar4 {
+	0% {
+		height: var(--thin);
+		top: calc(var(--size) - var(--thin));
+	}
+	35% {
+		height: var(--size);
+		top: 0;
+	}
+	70% {
+		height: var(--thin);
+		top: 0;
+	}
+	100% {
+		top: calc(var(--size) - var(--thin));
+	}
+}

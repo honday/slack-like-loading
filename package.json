@@ -1,0 +1,19 @@
+{
+  "name": "loading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss -c ./.postcssrc.json",
+    "watch:css": "postcss -c ./.postcssrc.json -w --map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^5.2.5",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.3"
+  }
+}

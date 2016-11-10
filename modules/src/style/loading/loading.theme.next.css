@@ -1,0 +1,9 @@
+:root {
+	--size: 2.5em;
+	--thin: calc(var(--size) / 5);
+
+	--color1: hsla(190, 61%, 65%, 0.75);
+	--color2: hsla(337, 84%, 48%, 0.75);
+	--color3: hsla(160, 50%, 48%, 0.75);
+	--color4: hsla( 41, 82%, 52%, 0.75);
+}
